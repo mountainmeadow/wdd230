@@ -1,0 +1,38 @@
+html{
+    max-width: 950px;
+    margin: auto;
+ font-size: 15px;
+    text-align: center;
+}
+
+li{list-style: none;}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #b0d0d3;
+    
+}
+
+footer{
+    background-color: #b0d0d3;
+    font-style: normal;
+    font-size: 20px;
+}
+
+main{
+    border: solid;
+    border-color: black;
+    background-color: #f7af9d;
+}
+
+
+    img {
+   
+        padding: 5px;
+        width: 150px;
+        text-align: right
+      }
+      
+  
