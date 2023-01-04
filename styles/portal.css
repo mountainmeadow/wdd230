@@ -1,13 +1,27 @@
 html{
-    max-width: 950px;
+    max-width: 850px;
     margin: auto;
  font-size: 20px;
     text-align: center;
 }
 
 li{list-style: none;}
+ul{
+    text-align: left;
+}
 
-header{
+
+a:link {
+    color: black;
+  }
+  
+
+  a:visited {
+    color: black; /* I will change this later to a different  color */
+  }
+  
+  
+header,h1{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -15,24 +29,27 @@ header{
     
 }
 
+
 footer{
     background-color: #b0d0d3;
     font-style: normal;
     font-size: 15px;
+    padding: 0.1px;
 }
 
 main{
     border: solid;
     border-color: black;
     background-color: #f7af9d;
+    
 }
-
-
+ 
     img {
    
         padding: 5px;
         width: 150px;
-        text-align: right
+        
+        padding: 10px;
       }
       
   
