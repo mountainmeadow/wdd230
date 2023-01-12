@@ -5,11 +5,11 @@ body {
     font-family: "Audiowide", sans-serif;
   }
 a:link {
-    color: firebrick;
+    color: black;
   }
 
   a:visited {
-    color: black;
+    color: firebrick;
   }
 header{
     background-color: #f7af9d;
