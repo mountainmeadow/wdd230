@@ -2,7 +2,7 @@ p{
     font-size: 15px;
 }
 body {
-    font-family: "Audiowide", sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
   }
 a:link {
     color: black;
@@ -19,7 +19,6 @@ header{
 }
 
 h3,h4{
-    background-color: whitesmoke;
     color:black;
    text-align: left;
 }
@@ -38,4 +37,5 @@ section{
 }
 footer{
     text-align: center;
+
 }
