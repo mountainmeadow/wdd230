@@ -1,7 +1,9 @@
 p{
-    font-size: 16px;
+    font-size: 18px;
 }
-
+body {
+    font-family: "Audiowide", sans-serif;
+  }
 a:link {
     color: black;
   }
