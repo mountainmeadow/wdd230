@@ -1,3 +1,44 @@
-@media only screen and (min-width: 649px) {
+p{
+    font-size: 16px;
+}
+
+a:link {
+    color: black;
+  }
+  
+ 
+  a:visited {
+    color: firebrick;
+  }
+header{
+    background-color: #f7af9d;
+    text-align: center;
+    color:black;
+    padding:15px;
+}
+
+h3{
+    background-color: whitesmoke;
+    color:black;
+   text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+img{
+    width:100%;
+    margin-top:15px;
+}
+
+section{
+    margin: 7px;
+    border-style: solid;
     
+    background-color: whitesmoke;
+    padding:7px;
+}
+footer{
+    text-align: center;
 }
