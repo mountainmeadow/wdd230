@@ -22,16 +22,16 @@ header{
 h3{
     background-color: whitesmoke;
     color:black;
-   text-align: center;
+   text-align: left;
 }
 
 h4{
-    text-align: center;
+    text-align: left;
 }
 
 img{
     width:100%;
-    margin-top:15px;
+    margin-top:5px;
 }
 
 section{
