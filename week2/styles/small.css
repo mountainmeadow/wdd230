@@ -19,15 +19,12 @@ header{
     padding: 5px;
 }
 
-h3{
+h3,h4{
     background-color: whitesmoke;
     color:black;
    text-align: left;
 }
 
-h4{
-    text-align: left;
-}
 
 img{
     width:100%;
@@ -37,7 +34,6 @@ img{
 section{
     margin: 7px;
     border-style: solid;
-    
     background-color: whitesmoke;
     padding:7px;
 }
