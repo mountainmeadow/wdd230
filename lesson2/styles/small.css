@@ -3,6 +3,7 @@ p{
 }
 body {
     font-family: 'Sofia Sans', sans-serif;
+    background-color: #f7af9d;
   }
 a:link {
     color: black;
@@ -12,7 +13,7 @@ a:link {
     color: firebrick;
   }
 header{
-    background-color: #f7af9d;
+    
     text-align: center;
     color:black;
     padding: 5px;
