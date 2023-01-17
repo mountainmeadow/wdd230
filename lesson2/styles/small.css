@@ -8,7 +8,7 @@ body {
   }
   main{display: grid;}
 
-  
+
 a:link {
     color: black;
   }
@@ -23,10 +23,12 @@ header{
     padding: 5px;
 }
 
-h3,h4{
+h2,h3,h4{
     color:black;
    text-align: left;
+   font-size: 15px ;
 }
+
 
 
 img{
