@@ -1,8 +1,8 @@
 html {
     max-width: 950px;
     margin: auto;
-    font-size: 15px;
 }
+
 
 #white,#lightyellow,#black {
     padding: 10px;
@@ -15,10 +15,9 @@ html {
 #black{background-color: #000000;
 color:white }
 
-h1,nav,footer{
+h1,footer{
     text-align: center;
 }
-
 
 
 .center {
@@ -29,30 +28,28 @@ h1,nav,footer{
 }
 
 
-/***********************************************/
-/** Media Queries for larger views *************/
-/***********************************************/
-
-@media (min-width: 37.5em) {
-    nav {
-        flex-direction: row;
-    }
-
-    nav a {
-        font-size: 1.1rem;
-    }
-
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    main picture {
-        display: block;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
 }
 
-@media (min-width: 48em) {
-    nav a {
-        font-size: 1.3rem;
-    }
+li {
+    float: left;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
