@@ -4,9 +4,7 @@ html {
     font-size: 15px;
 }
 
-#white,
-#lightyellow,
-#black {
+#white,#lightyellow,#black {
     padding: 10px;
     text-align: center;
     border: solid;
@@ -17,21 +15,44 @@ html {
 #black{background-color: #000000;
 color:white }
 
-h1{
+h1,nav,footer{
     text-align: center;
 }
 
-nav{
-    text-align: center;
-}
 
-footer{
-    text-align: center;
-}
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 37.5em) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main picture {
+        display: block;
+    }
+}
+
+@media (min-width: 48em) {
+    nav a {
+        font-size: 1.3rem;
+    }
 }
