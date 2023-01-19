@@ -1,0 +1,37 @@
+html {
+    max-width: 950px;
+    margin: auto;
+    font-size: 15px;
+}
+
+#white,
+#lightyellow,
+#black {
+    padding: 10px;
+    text-align: center;
+    border: solid;
+}
+
+#white{background-color: white;}
+#lightyellow{background-color: #FFFFE0;}
+#black{background-color: #000000;
+color:white }
+
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
