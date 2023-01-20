@@ -64,11 +64,7 @@ nav ul li a {
                     font-size: 1rem;
                 }
     
-                nav a:hover {
-                    /* 	background-color: #bbb;
-    	color: #36454f; */
-                    --d: 75%;
-                }
+          
 
             }
 
