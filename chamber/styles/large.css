@@ -6,7 +6,6 @@
 
     .navigation li {
         display: block;
-        /* change state in small view */
         flex: 1 1 auto;
     }
 
@@ -21,5 +20,5 @@
 /* grid */
 header {          
 display: grid;
-grid-template-columns: 1fr 50% 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 align-items: center;}
