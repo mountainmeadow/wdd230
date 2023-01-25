@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Hurricane Chamber of Commerce" />
@@ -11,6 +10,12 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <header>
     <h1>City of Hurricane Chamber of Commerce</h1>
@@ -18,7 +23,7 @@
       <a href=""><img src="images/facebooklogo.png" /></a>
       <a href=""><img src="images/lilogo.png" /></a>
     </section>
-    <picture class="logo"><img src="images/logo.jpg" alt="logo" /></picture>
+    <picture class="logo"><img src="images/logo.jpg" alt="logo" class="logo"/></picture>
     <nav>
 	<ul class="navigation">
 		<li><a id="menu" href="index.html">Home</a></li>
@@ -26,36 +31,36 @@
 		<li><a href="directory.html">Directory</a></li>
 		<li><a href="join.html">Join</a></li>
 		<li><a href="contact.html">Contact</a></li>
-
 	</ul>
 </nav>
     <div class="date"></div>
   </header>
   <body>
+<main>
+
     <section>
-      <p>Hero with site name and call to action</p>
+        <p>Hero, site name, and call to action</p>
     </section>
 
-    <section class="event">
-      <p>Event</p>
+    <section>
+        <p>Event:</p>
     </section>
     <section class="join">
-      <p>Join</p>
+        <p>Join:</p>
     </section>
-    <section class="weather">
-      <p>Weather</p>
+    <section>
+        <p>Weather:</p>
     </section>
-    <section class="news">
-      <p>New Release</p>
+    <section>
+        <p>New Release:</p>
     </section>
     <section class="spotlight">
-      <p>Spotlight 1</p>
-      <p>Spotlight 2</p>
-      <p>Spotlight 3</p>
+            <p>Spotlight 1:</p>
+            <p>Spotlight 2:</p>
+            <p>Spotlight 3:</p>
     </section>
+    </main>
+     <footer><p id="time"></p></footer>
   </body>
-  <footer>
-    <p id="time"></p>
-  </footer>
   <script src="scripts/chamber.js"></script>
 </html>
