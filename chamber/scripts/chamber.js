@@ -17,3 +17,12 @@ let text = document.lastModified;
 document.getElementById("time").innerHTML = text;
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+// nav //
+ 
+const navigation = document.querySelector('.navigation')
+const menu= document.querySelector('#menu');
+
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
