@@ -59,11 +59,6 @@ font-weight: lighter;
    
 }
 
-.logo {
-    width: 100%;
-    margin: 2em;
-}
-
 
 .date {
     grid-column: 1 / span 5;
