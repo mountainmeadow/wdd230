@@ -29,12 +29,7 @@ nav {
     margin: 1em;
 }
 
-nav button {
-  
-    border-radius: 0;
-    font-size: 2rem;
-   
-}
+
 
 nav ul {
     list-style-type: none;
