@@ -23,10 +23,16 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 // nav //
  
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu');
+ 
+function toggleMenu(){
+    document.querySelector('#primaryNav').classList.toggle('open');
+    document.querySelector('#hamburgerBtn').classList.toggle('open');
+}
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+const hamButton =document.querySelector('#hamburgerBtn');
+hamButton.onclick = toggleMenu;
+
+
 
 // copyright//
 document.getElementById("year").innerHTML = new Date().getFullYear();
