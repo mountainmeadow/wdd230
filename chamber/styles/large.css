@@ -34,10 +34,7 @@
         display: none;
     }
 
-    header a img {
-        width: 40%;
-    }
-
+   
     header section {
         grid-column: 4;
         margin-left: 50%;
