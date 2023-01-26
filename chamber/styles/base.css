@@ -3,8 +3,11 @@ html{
     font-family: 'Sofia Sans',
         sans-serif;
 }
+body{
+    background-color: #37505c;
+}
 header {
-    background-color: firebrick;
+    background-color: #F76F8E;
     display: grid;
     grid-template-columns: 1fr 50% 1fr 1fr 1fr;
     align-items: center;
@@ -47,9 +50,6 @@ nav ul li a {
   
 }
 
-nav ul li a:hover {
-    background-color: white;
-}
 
 nav ul.open {
     display: block;
@@ -108,7 +108,7 @@ main section {
     background-color: white;
     height: 100%;
     margin: 10px;
-    border: solid 1px firebrick;
+    border: solid 1px #F76F8E;
 
 }
 
@@ -118,7 +118,6 @@ main section p {
 }
 
 .spotlight p {
-    border: solid 1px  firebrick;
     height: 100px;
     margin: 5%;
 }
@@ -132,7 +131,7 @@ main .join {
 }
 
 footer{
-    background-color: firebrick;
+    background-color: #F76F8E;
     color: black;
     text-align: center;
 }
