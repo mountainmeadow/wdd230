@@ -1,9 +1,6 @@
 @media only screen and (min-width: 64rem) {
 
-    header {
-        grid-template-columns: 1fr 30% 40% 1fr;
-    }
-
+  
     nav ul {
         display: block;
         background-color: transparent;
@@ -36,12 +33,13 @@
 
   
 
-.face    {
-        grid-column: 2;
-        margin-left: 50%;
+ .face    {
+       
+        justify-items: left;
     }
 
-    header .logo {
+    div .logo {
+        grid-column: 3;
         width: 20%;
     }
 
