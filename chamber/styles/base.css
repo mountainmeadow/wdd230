@@ -7,10 +7,10 @@ body{
 }
 
 header {
+    
     background-color: #F76F8E;
     color: black;
-    justify-items: left;
-    size: 10px;
+ 
 
 
 }
@@ -51,9 +51,7 @@ nav ul li a {
 }
 
  
- .logo{
-    width: 1px;
-}
+
 
 nav ul.open {
     display: block;
@@ -78,9 +76,13 @@ nav ul.open {
 
 .logo {
      width: 111px;
-
+    
  }
-
+.face{
+    width: 50px;
+    grid-column: 2;
+    grid-row: 2;
+}
 
  .date {
      color: black;
