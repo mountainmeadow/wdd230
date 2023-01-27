@@ -33,16 +33,7 @@
 
   
 
- .face    {
-       
-        justify-items: left;
-    }
-
-     .logo {
-        grid-column: 3;
-        width: 20%;
-    }
-
+ 
 
     main {
         grid-template-columns: 25% 50% 25%;
