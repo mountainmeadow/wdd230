@@ -7,7 +7,7 @@ body{
 }
 
 header {
-    background-color: white;
+    background-color: #F76F8E;
     color: black;
     justify-items: left;
     size: 10px;
@@ -75,14 +75,11 @@ nav ul.open {
 }
 
 .logo {
-     width: 10%;
+     width: 111px;
 
  }
 
-   .face {
-     width: 20px;
-    
- }
+   
 
 
  .date {
