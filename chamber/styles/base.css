@@ -10,15 +10,32 @@ header {
     
     background-color: #F76F8E;
     color: black;
- 
+ display: grid;
+ grid-template-columns: 1fr 50% 1fr 1fr 1fr;
 
 
+}
+
+.logo {
+    width: 50px;
+
+}
+
+.face {
+    width: 50px;
+}
+
+.date {
+    color: white;
+    text-align: center;
+    margin: 0.5em;
+    background-color: #F76F8E;
 }
 
  h1 {
      font-size: 1em;
      text-align: center;
-
+   
  }
 
 nav {
@@ -72,22 +89,6 @@ navigation a:active {
     content: "X";
 }
 
-.logo {
-     width: 111px;
-    
- }
-.face{
-    width: 50px;
-    grid-column: 2;
-    grid-row: 2;
-}
-
- .date {
-     color: black;
-     text-align: center;
-     margin: 0.5em;
-     background-color: #F76F8E;
- }
 
 main section {
     background-color: white;
