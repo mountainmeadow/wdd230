@@ -6,7 +6,7 @@
             width: 50%;
         }
 
-        /* main section with grid*/
+      
         main {
             display: grid;
             gap: 1rem;

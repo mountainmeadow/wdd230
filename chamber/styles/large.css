@@ -1,5 +1,3 @@
-
-
 @media only screen and (min-width: 64rem) {
 
     header {
@@ -8,13 +6,14 @@
 
     nav ul {
         display: block;
+        background-color: transparent;
         display: flex;
         gap: 8%;
         grid-column: 3;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 38px;
     }
 
 
@@ -24,26 +23,27 @@
     }
 
     nav ul li a {
-     
+        
         border: none;
         font-size: 28px;
     }
 
    
+
     header button {
         display: none;
     }
 
-   
-    header section {
-        grid-column: 4;
+  
+
+.face    {
+        grid-column: 2;
         margin-left: 50%;
     }
 
-        .logo {
-            width: 50%;
-    
-        }
+    header .logo {
+        width: 20%;
+    }
 
 
     main {
@@ -95,4 +95,4 @@
     .spotlight p {
         width: 80%;
     }
-      
+}

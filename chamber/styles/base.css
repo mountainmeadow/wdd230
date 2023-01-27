@@ -5,27 +5,26 @@ html{
 body{
     background-color: #37505c;
 }
+
 header {
     background-color: #F76F8E;
-    display: grid;
-    align-items: center;
     color: black;
-    justify-items: center;
+    justify-items: left;
+
 
 }
 
- .logo {
-     width: 111px;
-    
 
- }
+section .logo {
+      width: 10%;
+      grid-row: 1;
+      grid-column: 2;
+  }
 
-header p {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 1;
-
+section .face{
+    width: 20px;
+    grid-column: 1;
 }
-
 nav {
     
     display: grid;
@@ -47,8 +46,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: black;
-    display: block;
-    padding: 5%;
+   
 
 }
 
@@ -61,25 +59,17 @@ nav ul.open {
 
 
 h1 {
-font-size: 1em;
-   
+font-size: 25px;
+text-align: center;
+    
 }
 
 
 .date {
     color: whitesmoke;
-    grid-column: 2/ 4;
-    grid-row: 2;
+text-align: center;
     text-align: center;
     margin: .5em;
-}
-    
-    
-.face {
-    width: 50px;
-    border-style: none;
-    grid-row: 2;
-
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -105,6 +95,7 @@ main section {
     border: solid 1px #F76F8E;
 
 }
+
 
 main section p {
     padding: 5%;
