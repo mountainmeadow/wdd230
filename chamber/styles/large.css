@@ -38,7 +38,7 @@
         justify-items: left;
     }
 
-    div .logo {
+     .logo {
         grid-column: 3;
         width: 20%;
     }

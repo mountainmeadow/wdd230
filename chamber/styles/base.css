@@ -71,30 +71,27 @@ nav ul.open {
 }
 
  .logo {
-     width: 10%;
+     width: 100%;
 
  }
 
- .face {
+  div .face {
      width: 20px;
      grid-column: 5;
  }
 
 
  .date {
-     color: whitesmoke;
+     color: white;
      text-align: center;
      margin: .5em;
  }
 main section {
-    background-color: whitesmoke;
+    background-color: white;
     height: 100%;
     margin: 10px;
     border: solid 4px #F76F8E;
-
 }
-
-
 
 main section p {
     padding: 5%;
