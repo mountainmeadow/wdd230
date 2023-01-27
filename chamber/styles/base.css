@@ -10,19 +10,16 @@ header {
     
     background-color: #F76F8E;
     color: black;
- display: grid;
- grid-template-columns: 1fr 50% 1fr 1fr 1fr;
-
-
 }
 
 .logo {
-    width: 50px;
+    width: 111px;
+    float: left;
 
 }
-
-.face {
-    width: 50px;
+.face{
+    width: 40px;
+    float: right;
 }
 
 .date {
@@ -33,9 +30,8 @@ header {
 }
 
  h1 {
-     font-size: 1em;
+     font-size: 30px;
      text-align: center;
-   
  }
 
 nav {
