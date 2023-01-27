@@ -24,13 +24,11 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 // nav //
  
  
-function toggleMenu(){
-    document.querySelector('#primaryNav').classList.toggle('open');
-    document.querySelector('#hamburgerBtn').classList.toggle('open');
-}
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
 
-const hamButton =document.querySelector('#hamburgerBtn');
-hamButton.onclick = toggleMenu;
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 
 

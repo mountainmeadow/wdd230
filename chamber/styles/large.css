@@ -1,35 +1,34 @@
 @media only screen and (min-width: 64rem) {
 
-  
-    nav ul {
-        display: block;
-        background-color: transparent;
-        display: flex;
-        gap: 8%;
-        grid-column: 3;
-    }
+
+    .navigation {
+            display: flex;
+        }
+    
+        .navigation li {
+            display: block;
+            /* change state in small view */
+            flex: 1 1 auto;
+        }
+    
+        .navigation a {
+            text-align: center;
+        }
+    
+        .navigation li:first-child {
+            display: none;
+        }
 
     h1 {
         font-size: 38px;
     }
 
 
-    nav {
-        grid-column: 3;
-        grid-row: 1;
-    }
-
-    nav ul li a {
-        border: none;
-        font-size: 28px;
-    }
+    
 
    
 
-    header button {
-        display: none;
-    }
-
+   
 
     main {
         grid-template-columns: 25% 50% 25%;

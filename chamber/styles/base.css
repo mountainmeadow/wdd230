@@ -22,56 +22,54 @@ header {
  }
 
 nav {
-    display: grid;
-    grid-template-rows: 205 1fr;
-    margin: 1em;
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #F76F8E;
 }
 
-nav button {
-
-    border-radius: 0;
-    font-size: 5px;
-
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    margin-left: -25%;
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
     display: none;
-  
-    
 }
 
-nav ul li a {
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
     text-decoration: none;
     color: black;
-    display: block;
-    padding: 5%;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+#menu::before {
+    content: "≡";
+    font-size: 2rem;
+}
+
+.navigation a:hover,
+navigation a:active {
+    color: black;
    
 }
 
- 
 
-
-nav ul.open {
-    display: block;
-    padding-right: 20%;
-
-}
-#hamburgerBtn span:nth-child(1) {
+.responsive li {
     display: block;
 }
 
-#hamburgerBtn span:nth-child(2) {
-    display: none;
-}
-
-#hamburgerBtn.open span:nth-child(1) {
-    display: none;
-}
-
-#hamburgerBtn.open span:nth-child(2) {
-    display: block;
+.responsive #menu::before {
+    content: "X";
 }
 
 .logo {
