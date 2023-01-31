@@ -34,3 +34,10 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // copyright//
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+//banner//
+if (thedate.getDay() == 5) {
+    document.querySelector('.announcement').style.display = 'block';
+}
+

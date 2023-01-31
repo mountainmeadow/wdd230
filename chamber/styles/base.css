@@ -37,6 +37,8 @@ header {
 nav {
     margin: 0 auto;
     max-width: 760px;
+    background-color: #37505c;
+    color: white;
  
 }
 
@@ -55,6 +57,7 @@ nav {
 }
 
 .navigation a {
+
     display: block;
     padding: 0.75rem;
     text-align: left;
@@ -63,6 +66,7 @@ nav {
     font-weight: 700;
     transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
+    color: white;
 }
 
 #menu::before {
@@ -70,9 +74,8 @@ nav {
     font-size: 2rem;
 }
 
-.navigation a:hover,
-navigation a:active {
-    color: #F76F8E;
+.navigation a:hover {
+background-color: #F76F8E;
    
 }
 
@@ -128,12 +131,11 @@ footer a{
     color: black;
 }
 
-.banner{ background-color:#F76F8E;
+.announcement{ background-color:#F76F8E;
 margin: 10px;
  font-size:  10px;
-text-align: center;
-font-weight: lighter;
+ text-align: center;
+font-weight: bold;
 color: black;
-
-
+display: none;
 }
