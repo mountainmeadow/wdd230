@@ -72,9 +72,10 @@ nav {
 
 .navigation a:hover,
 navigation a:active {
-    color: black;
+    color: #F76F8E;
    
 }
+
 
 
 .responsive li {
@@ -87,11 +88,11 @@ navigation a:active {
 
 
 main section {
-    background-color: transparent;
-    color: aliceblue;
+    color: black;
     height: 100%;
     margin: 10px;
-    border: solid 4px #F76F8E;
+    border: solid 2px black;
+    background-color: #F76F8E;
 }
 
 main section p {
@@ -99,15 +100,14 @@ main section p {
     font-size: 18px;
 }
 
+
 .spotlight p {
     height: 100px;
     margin: 5%;
+    border: solid 2px black;
+   
 }
-.spotlight p {
-    border: solid 1px #F76F8E;
-    height: 100px;
-    margin: 5%;
-}
+
 main .join {
     display: none;
 }
@@ -120,7 +120,7 @@ footer{
     background-color: white;
     color: black;
     text-align: center;
-    color: ;
+  
 }
 
 footer a{
@@ -128,4 +128,12 @@ footer a{
     color: black;
 }
 
+.banner{ background-color:#F76F8E;
+    margin: 10px;
+ font-size:  10px;
+text-align: center;
+font-weight: lighter;
+color: black;
+    
 
+}

@@ -18,7 +18,7 @@
             display: none;
         }
 
-
+ 
 
     main {
         grid-template-columns: 25% 50% 25%;
@@ -69,4 +69,8 @@
     .spotlight p {
         width: 80%;
     }
+        .banner {
+          
+            font-size: 15px
+        }
 }
