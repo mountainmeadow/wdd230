@@ -64,9 +64,12 @@
 
     .spotlight {
         flex-direction: column;
+        
     }
 
     .spotlight p {
-        width: 80%;
+        width: 60%;
+      
+
     }
 }
