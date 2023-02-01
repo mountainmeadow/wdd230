@@ -81,10 +81,6 @@ color:white;
 
 
 
-.responsive li {
-    display: block;
-}
-
 .responsive #menu::before {
     content: "X";
 }
@@ -107,7 +103,7 @@ main section p {
 .spotlight h4,h5,h6 {
     height: 100px;
     margin: 5%;
-    border: solid 2px black;
+
    
 }
 
@@ -137,6 +133,7 @@ margin: 10px;
  font-size:  10px;
  text-align: center;
 font-weight: bold;
-color: black;
-display: none;
-}
+color: black;}
+
+
+

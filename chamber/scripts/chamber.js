@@ -22,8 +22,6 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 // nav //
- 
- 
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
 
@@ -36,7 +34,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
-//banner//
+//announcement//
 
 
 //weather//
