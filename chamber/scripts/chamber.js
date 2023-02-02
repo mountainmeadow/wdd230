@@ -46,8 +46,9 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
     weekday[6] = "Saturday";
     
     var n = weekday[d.getDay()];
-    if (n == "Monday", "Tuesday"){
+    if (n == "Monday"){
         document.getElementById("meeting").style.display = "block"; /*visible*/
+	
 
     }else {
         document.getElementById("meeting").style.display = "none"; /*hidden*/
