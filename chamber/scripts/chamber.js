@@ -35,6 +35,9 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 //announcement//
+const d = new Date();
+let day = d.getDay()
+document.getElementById("announcement").innerHTML = day;
 
 
 //weather//
