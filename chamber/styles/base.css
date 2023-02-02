@@ -16,13 +16,13 @@ header {
 .logo {
     width: 70px;
     float: left;
-    margin: 3em;
+    margin: 1em;
 
 }
 .face{
     width: 30px;
     float: right;
-    margin: 3em;
+    margin: 1em;
 }
 
 .date {
