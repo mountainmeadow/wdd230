@@ -96,14 +96,16 @@ main section {
     background-color: #F1F7EE;
 }
 
-
+.spotlight section{
+    border:  solid 3px #37505c;
+}
 
 
 .spotlight p {
-    height: 100px;
-    margin: 2em;
+    height: 140px;
+    margin: 5em;
 font-size: 15px;
-text-align: center;
+text-align: left;
 
    
 }
