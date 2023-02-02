@@ -34,10 +34,22 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
-//announcement//
-const d = new Date();
-let day = d.getDay()
-document.getElementById("announcement").innerHTML = day;
+//announcement// 
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+    
+    var n = weekday[d.getDay()];
+    if (n == "Monday", "Tuesday"){
+        document.getElementById("meeting").style.display = "block"; /*visible*/
 
+    }else {
+        document.getElementById("meeting").style.display = "none"; /*hidden*/
+    }
 
-//weather//
