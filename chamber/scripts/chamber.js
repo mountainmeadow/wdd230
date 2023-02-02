@@ -48,9 +48,13 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
     var n = weekday[d.getDay()];
     if (n == "Monday"){
         document.getElementById("meeting").style.display = "block"; /*visible*/
-	
 
-    }else {
+    }
+	else if  (n == "Tuesday"){
+        document.getElementById("meeting").style.display = "block"; /*visible*/
+		
+	}
+	else {
         document.getElementById("meeting").style.display = "none"; /*hidden*/
     }
 
