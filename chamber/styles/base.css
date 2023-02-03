@@ -153,3 +153,11 @@ color: white;}
     display: inline-block;
     font-size: 16px;
 }
+
+ .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;}
+
+    
