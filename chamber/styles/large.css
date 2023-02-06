@@ -68,14 +68,7 @@
     }
 
     .spotlight p {
-        width: 60%;
-      
+        width: 50%;
 
     }
-    .img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;}
-    
 }
