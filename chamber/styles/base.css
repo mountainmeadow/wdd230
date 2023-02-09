@@ -202,6 +202,7 @@ color: white;}
     width: 50%;
   }
 
- h2,h3{
+ h2,h3,h4{
     text-align: center;
+    font-size: 15px;
  }
