@@ -97,6 +97,15 @@ main section {
     background-color: #F1F7EE;
 }
 
+
+main figure.myphoto{
+    width: 200%;
+    margin: 0 0  0 2%;
+}
+main figure.myphoto img {
+    width: 100%;}
+
+
 .spotlight section{
     border:  solid 3px #37505c;
 }
