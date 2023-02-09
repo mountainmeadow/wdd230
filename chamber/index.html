@@ -16,8 +16,8 @@
   </head>
 
   <header>
-    <picture> <img class="logo" src="images/logo.jpg" alt="logo"></picture>
-    <div><img class="face"src="images/facebook.png" alt=""></div>
+    <picture> <img class="logo" src="images/logo.webp" alt="logo"></picture>
+    <div> <a href="facebook.com"><img class="face"src="images/facebook.png"></a></div>
 
     <div class="announcement">
       <h2 id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.🤝🏼</h2>
@@ -45,15 +45,13 @@
 
     <div class="container">
   <figure class="myphoto">
-        <img src="images/golgotha.jpg" alt="golgotha" sizes="50vw"
+        <img src="images/wdd230-org.jpg" alt="wdd230-org" sizes="50vw"
         srcset="images/wdd230-org.jpg 200w, 
         images/500.jpg 500w,
         images/800.jpg 800w,
-        images/1100.jpg 1100w
-        
-        "
-        > 
-      
+        images/1100.jpg 1100w"
+        >
+
         </figure>
   <button class="btn">Join Us</button>
 </div>
@@ -62,18 +60,19 @@
    <h2> Come join us!</h2>
      <p>Ice Cream social @ city all March 23 2023 @ 7pm</p> 
      <img src="images/ice cream.jpg" alt="icecream" class="center">
-
-       
     </section>
     <section>
         <button class="button">Join us</button>
           <p>Discover how we can be a benefit to your business.</p>
     </section>
+
     <section>
-        <p>Weather</p>
-        <p>°F</p>
-        <p>Description</p>
-        <p> wind-speed</p>
+      
+        <p>Today's Weather</p>
+      <ul> 
+         <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+  </ul> 
+  
     </section>
     <section>
         <h3>19 JANUARY 2023</h3>
@@ -102,8 +101,8 @@ Contact us at (435) 635-0614 for an appointment or stop in at 545 W. State St. H
 &#169;<span id="year"></span> City of Hurricane Chamber| Naomi Smith|<a href="https://goo.gl/maps/bzh7AfnsiHasQBv9A">Map of Hurricane</a>|WDD230 Project
 <p>Last modification: <div id="date"></div> <div id="time"></div> </p>
 </footer>
-<script src="scripts/chamber.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/chamber.js"></script>
 </body>
 
 
