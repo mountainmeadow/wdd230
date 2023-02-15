@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>City of Hurricane Chamber </title>
-    <meta name = "description" content = "Site for the city of Hurricane" >
+    <meta name = "description" content ="City of Hurricane Chamber" >
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
   </head>
-
+  <body>
   <header>
     <picture> <img class="logo" src="images/logo.webp" alt="logo"></picture>
     <div> <a href="facebook.com"><img class="face"src="images/facebook.png"></a></div>
+
+    <div class="announcement">
+      <p id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.🤝🏼</p>
+        </div> 
+        
+    
+
  <h1>Discover Hurricane</h1>
   <nav>
 	<ul class="navigation">
@@ -23,59 +34,58 @@
 		<li><a href="directory.html">Directory</a></li>
 		<li><a href="join.html">Join</a></li>
 		<li><a href="contact.html">Contact</a></li>
+
 	</ul>
 </nav>
+<div class="date"></div>
 </header>
-<body>
-    <main>
-        <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/1.jpg"
-              alt="picture 1" />
-          </picture>
-          <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/2.jpg"
-              alt="picture 2" />
-          </picture>
-          <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/3.jpg"
-              alt=" picture 3" />
-          </picture>
-          <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/4.jpg"
-              alt="picture 4" />
-          </picture>
-          <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/5.jpg"
-              alt="picture 5" />
-          </picture>
-          <picture>
-            <img
-              src="images/300x400.png"
-              data-src="images/6.jpg"
-              alt="picture 6" />
-          </picture>
-    </main>
+
+ 
+<main class="discvoer">
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=1"
+      alt="random picture 1" />
+  </picture>
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=2"
+      alt="random picture 2" />
+  </picture>
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=3"
+      alt="random picture 3" />
+  </picture>
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=4"
+      alt="random picture 4" />
+  </picture>
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=5"
+      alt="random picture 5" />
+  </picture>
+  <picture>
+    <img
+      src="images/300x400.png"
+      data-src="https://picsum.photos/300/400?random=6"
+      alt="random picture 6" />
+  </picture>
+</main>
     <footer>
-        <footer>
-            <picture> <img class="logo" src="images/logo.jpg" alt="logo"></picture>
-                 <h6>City of Hurricane Chamber of Commerce</h6>
-                 <p>63 S 100 W, Hurricane, UT 84737</p>
-                 
-         &#169;<span id="year"></span> City of Hurricane Chamber| Naomi Smith|<a href="https://goo.gl/maps/bzh7AfnsiHasQBv9A">Map of Hurricane</a>|WDD230 Project
-         </footer>
-         <script src="scripts/chamber.js"></script>
-         </body>
-         
-    </footer>
+        <p>City of Hurricane Chamber of Commerce</p>
+        <p>63 S 100 W, Hurricane, UT 84737</p>
+&#169;<span id="year"></span> City of Hurricane Chamber| Naomi Smith|<a href="https://goo.gl/maps/bzh7AfnsiHasQBv9A">Map of Hurricane</a>|WDD230 Project
+<p>Last modification: <span id="date"></span> <span id="time"></span> </p>
+</footer>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/chamber.js"></script>
 </body>
 </html>

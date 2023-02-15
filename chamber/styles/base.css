@@ -99,7 +99,7 @@ main section {
     
 }
 
-
+/*index main*/
 main{
     background-color: #F1F7EE;
 }
@@ -227,3 +227,19 @@ color: white;}
     margin: 1em;
  }
  
+/*discover images*/
+
+.discvoer{
+    grid-template-columns:  none;
+    grid-template-rows: none;
+}
+picture img {
+    display: block;
+    margin: 1rem auto;
+    border: solid 2px;
+  }
+  picture img[data-src] {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+  }
+  
