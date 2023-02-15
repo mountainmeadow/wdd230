@@ -117,10 +117,7 @@ main .join {
     display: none;
 }
 
-main section{
-    border: solid 4px;
-    border-color: #37505c;
-}
+
 
 .spot{
     margin: 5em;
@@ -159,7 +156,7 @@ color: white;}
 
 
 .button {
-    background-color: #F76F8E;
+    background-color: #37505c;
     color: white;
     padding: 15px 32px;
     display: inline-block;
@@ -167,7 +164,9 @@ color: white;}
     margin: 1em;
 }
 
-
+.button:hover {
+    background-color: #F76F8E;
+  }
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
@@ -187,8 +186,8 @@ color: white;}
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #F76F8E;
-    color: white;
+    background-color: #F1F7EE;
+    color: black;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
@@ -197,7 +196,7 @@ color: white;}
   }
   
   .container .btn:hover {
-    background-color: black;
+    background-color: #F76F8E;
   }
 
 
