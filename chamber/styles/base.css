@@ -96,6 +96,7 @@ main section {
     margin: 10px;
     
     
+    
 }
 
 
@@ -122,8 +123,13 @@ main .join {
 .spot{
     margin: 5em;
     text-align: justify;
+
     
 
+}
+
+.indexh6{
+    margin: 1em;
 }
 .spotlight p:nth-child(3) {
     display: none;
@@ -205,19 +211,16 @@ color: white;}
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
   }
 
- h2,h3,h4 ,h5{
+ h2,h3,h4 ,h5,h6{
     text-align: center;
     font-size: 15px;
     border: solid 1px;
     border-color: #37505c;
  }
 
- h6{
-    font-size: 15px;
- }
  
  .weather,.ice,.news,.join{
     text-align: left;
