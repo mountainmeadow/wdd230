@@ -80,7 +80,7 @@ header {
 
 .navigation a:hover, navigation a:active {
 	color: white;
-	background-color: black;
+	background-color: #37505c;
 }
 
 
@@ -247,3 +247,11 @@ picture img {
     font-size: 50px;
     border: none;
   }
+
+  figcaption{
+    text-align: center;
+
+    font-weight:bold;
+    margin: 1em;
+    
+}
