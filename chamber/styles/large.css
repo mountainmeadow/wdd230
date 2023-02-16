@@ -73,10 +73,16 @@
     }
 
     .logo {
-        width: 70px;
+        width: 100px;
         float: left;
         margin: 1em;
     
+    }
+
+    .footerlogo{
+        width: 90px;
+        float: left;
+        margin: 1em;
     }
 
     

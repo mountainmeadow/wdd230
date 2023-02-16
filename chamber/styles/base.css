@@ -21,6 +21,13 @@ header {
     border: none;
 
 }
+
+.footerlogo{
+    width: 70px;
+    float: left;
+    margin: 1em;
+    border: none;
+}
 .face{
     width: 30px;
     float: right;
