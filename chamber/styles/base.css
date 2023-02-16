@@ -18,6 +18,7 @@ header {
     width: 70px;
     float: left;
     margin: 1em;
+    border: none;
 
 }
 .face{
@@ -227,7 +228,7 @@ color: white;}
     margin: 1em;
  }
  
-/*discover images*/
+/*discover page*/
 
 .discvoer{
     grid-template-columns:  none;
@@ -242,4 +243,7 @@ picture img {
     filter: blur(10px);
     -webkit-filter: blur(10px);
   }
-  
+  .discoverh{
+    font-size: 50px;
+    border: none;
+  }
