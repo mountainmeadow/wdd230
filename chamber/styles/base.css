@@ -46,56 +46,52 @@ header {
      text-align: center;
  }
 
-nav {
-    margin: 0 auto;
-    max-width: 760px;
-    background-color: white;
-    
+ nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #F76F8E;
 }
-
 .navigation {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-
 .navigation li:first-child {
-    display: block;
+	display: block;
 }
-
 .navigation li {
-    display: none;
+	display: none;
 }
-
 .navigation a {
-
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-  
-    font-weight: 700;
-    transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
-    color: black;
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 #menu::before {
-    content: "≡";
-    font-size: 2rem;
+	content: "≡";
+	font-size: 2rem;
 }
 
-.navigation a:hover {
-background-color: #F76F8E;
-color:white;
-   
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
 }
 
 
+.responsive li {
+	display: block;
+}
 
 .responsive #menu::before {
-    content: "X";
+	content: "X";
 }
+
 
 
 main section {
@@ -216,10 +212,7 @@ color: white;}
 
 
   .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    display: none;
   }
 
  h2,h3,h4 ,h5,h6{
