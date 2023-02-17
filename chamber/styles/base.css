@@ -111,7 +111,7 @@ main{
 
 main figure.myphoto{
     width: 200%;
-    margin: 0 0  0 2%;
+    margin: 1rem;
 }
 main figure.myphoto img {
     width: 100%;}
