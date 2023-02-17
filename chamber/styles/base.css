@@ -166,8 +166,8 @@ color: white;}
 
 
 .button {
-    background-color: #37505c;
-    color: white;
+    background-color: #F1F7EE;
+    color: black;
     padding: 15px 32px;
     display: inline-block;
     font-size: 16px;
@@ -176,6 +176,7 @@ color: white;}
 
 .button:hover {
     background-color: #F76F8E;
+    color: white;
   }
 /* Container needed to position the button. Adjust the width as needed */
 .container {
