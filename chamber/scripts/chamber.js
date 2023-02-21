@@ -34,7 +34,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
-//announcement// 
+//announcement//
     var d = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -44,7 +44,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
     weekday[4] = "Thursday";
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
-    
+
     var n = weekday[d.getDay()];
     if (n == "Monday"){
         document.getElementById("meeting").style.display = "block"; /*visible*/
@@ -52,7 +52,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
     }
 	else if  (n == "Tuesday"){
         document.getElementById("meeting").style.display = "block"; /*visible*/
-		
+
 	}
 	else {
         document.getElementById("meeting").style.display = "none"; /*hidden*/
@@ -86,27 +86,20 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach(img => {
         imgObserver.observe(img);
     });
-    
 } else {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
 }
 //number of vists//
-
-const todayDisplay = document.querySelector("#today");
 const visitsDisplay = document.querySelector("#visits");
-const daysLeftOutput = document.querySelector("#daysleft");
-
-
 let numVisits = Number(window.localStorage.getItem("visits-ls")); 
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
-
-
 numVisits++;
-
 localStorage.setItem("visits-ls", numVisits);
+
+
