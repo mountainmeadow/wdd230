@@ -15,7 +15,7 @@ html {
   }
   
   th {
-    background-color: none;
+    background-color: burlywood;
   }
   
   td {
@@ -23,13 +23,15 @@ html {
   }
   
   tr:nth-child(even) td {
-    background-color: transparent;
+    background-color: rosybrown;
   }
   
   tr:nth-child(odd) td {
-    background-color: burlywood;
+    background-color: whitesmoke;
   }
   
   caption {
     padding: 10px;
+    
   }
+  
