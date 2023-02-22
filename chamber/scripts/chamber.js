@@ -12,11 +12,6 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-
-
-
-
-
 // nav //
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
