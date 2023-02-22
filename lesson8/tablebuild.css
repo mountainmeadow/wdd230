@@ -27,7 +27,7 @@ html {
   }
   
   tr:nth-child(odd) td {
-    background-color: rosybrown;
+    background-color: burlywood;
   }
   
   caption {
