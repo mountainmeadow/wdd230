@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>City of Hurricane Chamber </title>
-    <meta name = "description" content ="City of Hurricane Chamber" >
+    <meta name = "description" content ="Join City of Hurricane Chamber" >
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -17,7 +17,7 @@
   <body>
   <header>
     <picture> <img class="logo" src="images/logo.webp" alt="logo"></picture>
-    <div> <a href="facebook.com"><img class="face"src="images/facebook.png"></a></div>
+    <div> <a href="facebook.com"><img class="face"src="images/facebook.png" alt="facebook"></a></div>
 
     <div class="announcement">
       <p id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.🤝🏼</p>
@@ -40,35 +40,44 @@
 
 </header>
  
-    <main>
-        <form action="thankyou.html">
-            <label for="fname">First name:</label><br>
-            <input type="text" placeholder="John" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" placeholder="Doe" id="lname" name="lname"><br>
-            <label for="email">Email:</label><br>
-            <input type="text" placeholder="user@email.org" id="email" name="email"> <br>
-            <label for="number">Phone number:</label><br>
-            <input type="text" placeholder="###-###-####" id="number" name="number"><br>
-            <label for="business">Business Name:</label><br>
-            <input type="text"placeholder="Pizza Hut"id="business" name="business"><br>
-            <label for="number">Tell us about your business:</label><br>
-            <input type="text" id="tell" name="tell"><br>
-            <select name="member" id="member"><br>
-                <option value="member">Memberships</option>
-                <option value="NP">Non-profit</option>
-                <option value="Bronze">Bronze</option>
-                <option value="Silver">Silver</option>
-                <option value="Gold">Gold</option>
-              </select>
-            <input type="submit" value="Join the Chamber">
-            <input type="hidden" id="date"  id="time">
-          </form> 
-          
+    <main class="joinmain">
+     <form>
+      <div class=form>
+        <label for="fname">First name:</label><br>
+                    <input type="text" placeholder="John" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" placeholder="Doe" id="lname" name="lname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" placeholder="user@email.org" id="email" name="email"> <br>
+                    <label for="number">Phone number:</label><br>
+                    <input type="text"  type="tel" placeholder="###-###-####" id="number" name="number"><br>
+                    <label for="business">Business Name:</label><br>
+                    <input type="text"placeholder="Pizza Hut"id="business" name="business"><br>
+                    <label for="number">Tell us about your business:</label><br>
+                    <input type="text" id="tell" name="tell"><br>
+                    
+        
+          <fieldset>
+                      <legend>Membership levels </legend>
+                      <em>Choose one</em>
+                      <div class="selection">
+                        <input type="radio" name="membership" id="time1" value="B" checked>
+                        <label for="leve1">Non-profit</label>
+                        <input type="radio" name="membership" id="time2" value="9">
+                        <label for="leve2">Bronze</label>
+                        <input type="radio" id="membership" name="time" value="10">
+                        <label for="leve3">Sliver</label>
+                        <input type="radio" id="membership" name="time" value="11">
+                        <label for="leve4">Gold</label>
+                      </div>
+                    </fieldset>
+            <input type="submit" value="Submit">
+     </form>
+          <input type="hidden" id="date"  id="time">
    
     </main>
     <footer>
-      <picture> <img class="logo" src="images/logo.webp" alt="logo"></picture><p>City of Hurricane Chamber of Commerce</p>
+      <picture> <img class="footerlogo" src="images/logo.webp" alt="logo"></picture><p>City of Hurricane Chamber of Commerce</p>
   <p>63 S 100 W, Hurricane, UT 84737</p>
 &#169;<span id="year"></span> | Naomi Smith|<a href="https://goo.gl/maps/bzh7AfnsiHasQBv9A">Map of Hurricane</a>|WDD230 Project
 

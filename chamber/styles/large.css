@@ -24,7 +24,7 @@
     }
 
     .spotlight p:nth-child(3) {
-        display: block;
+        display: none;
     }
 
     main section:nth-child(1) {
@@ -76,7 +76,7 @@
     }
 
     .footerlogo{
-        width: 90px;
+        width: 60px;
         float: left;
         margin: 1em;
     }
@@ -88,5 +88,11 @@
         width: 100%;
       }
 
-    
+      form{
+        padding: 5px;
+       
+      }
+.joinmain{
+    background-color: #37505c;
 }
+    }
