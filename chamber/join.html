@@ -39,43 +39,93 @@
 <div class="date"></div>
 
 </header>
- 
-    <main class="joinmain">
-     <form>
-      <div class=form>
-        <label for="fname">First name:</label><br>
-                    <input type="text" placeholder="John" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" placeholder="Doe" id="lname" name="lname"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="text" placeholder="user@email.org" id="email" name="email"> <br>
-                    <label for="number">Phone number:</label><br>
-                    <input type="text"  type="tel" placeholder="###-###-####" id="number" name="number"><br>
-                    <label for="business">Business Name:</label><br>
-                    <input type="text"placeholder="Pizza Hut"id="business" name="business"><br>
-                    <label for="number">Tell us about your business:</label><br>
-                    <input type="text" id="tell" name="tell"><br>
-                    
-        
-          <fieldset>
-                      <legend>Membership levels </legend>
-                      <em>Choose one</em>
-                      <div class="selection">
-                        <input type="radio" name="membership" id="time1" value="B" checked>
-                        <label for="leve1">Non-profit</label>
-                        <input type="radio" name="membership" id="time2" value="9">
-                        <label for="leve2">Bronze</label>
-                        <input type="radio" id="membership" name="time" value="10">
-                        <label for="leve3">Sliver</label>
-                        <input type="radio" id="membership" name="time" value="11">
-                        <label for="leve4">Gold</label>
-                      </div>
-                    </fieldset>
-            <input type="submit" value="Submit">
-     </form>
-          <input type="hidden" id="date"  id="time">
+ <body>
+  <main class="joinmain">
+    <form>
+     <div class=form>
+       <label for="fname">First name:</label><br>
+                   <input type="text" placeholder="John" id="fname" name="fname"><br>
+                   <label for="lname">Last name:</label><br>
+                   <input type="text" placeholder="Doe" id="lname" name="lname"><br>
+                   <label for="email">Email:</label><br>
+                   <input type="text" placeholder="user@email.org" id="email" name="email"> <br>
+                   <label for="number">Phone number:</label><br>
+                   <input type="text"  type="tel" placeholder="###-###-####" id="number" name="number"><br>
+                   <label for="business">Business Name:</label><br>
+                   <input type="text"placeholder="Pizza Hut"id="business" name="business"><br>
+                   <label for="number">Tell us about your business:</label><br>
+                   <input type="text" id="tell" name="tell"><br>
+         <fieldset>
+                     <legend>Membership levels </legend>
+                     <em>Choose one</em>
+                     <div class="selection">
+                       <input type="radio" name="membership" id="time1" value="B" checked>
+                       <label for="leve1">Non-profit</label>
+                       <input type="radio" name="membership" id="time2" value="9">
+                       <label for="leve2">Bronze</label>
+                       <input type="radio" id="membership" name="time" value="10">
+                       <label for="leve3">Sliver</label>
+                       <input type="radio" id="membership" name="time" value="11">
+                       <label for="leve4">Gold</label>
+                     </div>
+                   </fieldset>
+           <input type="submit" value="Submit">
+    </form>
+         <input type="hidden" id="date"  id="time">
+  
    
-    </main>
+   
+  <table>
+    <thead>
+    <tbody>
+        <tr>
+            <td colspan="5">Chamber Member Benefits</td>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th>NP*</th>
+            <th>Bronze</th>
+            <th>Sliver</th>
+            <th>Gold</th>
+            
+        </tr>
+        <tr>
+            <th>Feature 1</th>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+        </tr>
+        <tr>
+            <th>Feature 2</th>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>✅</td>
+        </tr>
+        <tr>
+            <th>Feature 3</th>
+            <td>❌</td>
+            <td>❌</td>
+            <td>✅</td>
+            <td>✅</td>
+        </tr>
+        <tr>
+          <th>Feature 4</th>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>✅</td>
+      </tr>
+        <td colspan="5">*NP = Non-profit</td>
+    </tbody>
+
+    </thead>
+</table>
+</main>
+ </body>
+    
     <footer>
       <picture> <img class="footerlogo" src="images/logo.webp" alt="logo"></picture><p>City of Hurricane Chamber of Commerce</p>
   <p>63 S 100 W, Hurricane, UT 84737</p>

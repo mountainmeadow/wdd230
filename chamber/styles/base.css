@@ -286,4 +286,39 @@ input[type=text], select {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+
+}
+
+td, th {
+    padding: 10px 20px;
+    border: 2px solid black;
+  }
+  
+  th {
+    background-color: #37505c;
+    color: whitesmoke;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #F76F8E;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: whitesmoke;
   }
