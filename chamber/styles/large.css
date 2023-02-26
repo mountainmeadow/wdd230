@@ -90,9 +90,15 @@
 
       form{
         padding: 5px;
+        color:white;
        
       }
 .joinmain{
-    background-color: #37505c;
+   display: grid;
+    grid-template-areas: 1  1 ;
+    
 }
-    }
+.joinform{
+      padding: 1em;
+  }
+}

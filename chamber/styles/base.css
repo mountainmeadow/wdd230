@@ -269,7 +269,7 @@ input[type=text], select {
   
   input[type=submit] {
     width: 100%;
-    background-color: #37505c;
+    background-color: #F76F8E;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -279,18 +279,15 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color: #F76F8E;
+    background-color: #37505c;
   }
   
   .form {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
+    
+  }
 
   
 table {
@@ -298,6 +295,7 @@ table {
   border: 3px solid black;
   letter-spacing: 1px;
   font-size: 0.8rem;
+  padding: 3px;
 
 }
 
@@ -321,4 +319,7 @@ td, th {
   
   tr:nth-child(odd) td {
     background-color: whitesmoke;
+  }
+  .joinmain{
+    background-color: #37505c;
   }
