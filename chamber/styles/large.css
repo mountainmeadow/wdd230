@@ -96,9 +96,14 @@
 .joinmain{
    display: grid;
     grid-template-areas: 1  1 ;
+
     
 }
 .joinform{
       padding: 1em;
+      width: 300px;
+      
+      
   }
+ 
 }
