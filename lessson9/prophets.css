@@ -1,0 +1,19 @@
+h1{
+text-align: center;
+color: white;
+}
+
+body{
+    background-color: firebrick;
+}
+
+main{
+   background-color: tomato;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    border: solid 3px tomato;
+}

@@ -95,18 +95,17 @@ header {
 
 
 main section {
-    color: black;
+    color: ghostwhite;
     height: 100%;
     margin: 10px;
     
     
     
+    
 }
 
+
 /*index main*/
-main{
-    background-color: #F1F7EE;
-}
 
 
 main figure.myphoto{
@@ -131,7 +130,9 @@ main .join {
     
 
 }
-
+main section{
+  border: solid 2px #F76F8E;
+}
 .indexh6{
     margin: 1em;
 }
@@ -188,6 +189,7 @@ color: white;}
   .container img {
     width: 100%;
     height: auto;
+   
   }
   
   /* Style the button and place it in the middle of the container/image */
