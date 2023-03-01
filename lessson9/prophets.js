@@ -17,14 +17,17 @@ fetch(requestURL)
         let p3 = document.createElement('p');
         let p4 = document.createElement('p');
         let p5 = document.createElement('p');
+        let p6 = document.createElement('p');
         let pimg = document.createElement('img');
 
         h2.textContent = `${prophet.name} ${prophet.lastname}`;
         p.textContent = `Date of Birth: ${prophet.birthdate}`;
         p2.textContent = `Place of Birth: ${prophet.birthplace}`;
-        p4.textContent = `Years prophet: ${prophet.length}`;
-        p5.textContent = `Prophet number: ${prophet.order}`;
-        p3.textContent = `Number of children: ${prophet.numofchildren}`;
+        p3.textContent = `Date of Death: ${prophet.death}`;
+        p4.textContent = `Number of children: ${prophet.numofchildren}`;
+        p5.textContent = `Years prophet: ${prophet.length}`;
+        p6.textContent = `Prophet number: ${prophet.order}`;
+       
         pimg.setAttribute('src', prophet.imageurl);
         pimg.setAttribute('alt', `Date of Birth: ${prophet.birthdate}`);
         pimg.setAttribute('loading','lazy');
@@ -34,6 +37,7 @@ fetch(requestURL)
         card.append(p3);
         card.append(p4);
         card.append(p5);
+        card.append(p6);
         card.append(pimg);
         cards.append(card);
     });

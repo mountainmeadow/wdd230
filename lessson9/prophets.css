@@ -1,19 +1,25 @@
-h1{
-text-align: center;
-color: white;
-}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  section {
+    background-color: rgb(128, 65, 65);
+    border: 3px solid rgb(69, 65, 65);
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  img{
+    width: 300px;
+  }
 
-body{
-    background-color: firebrick;
-}
-
-main{
-   background-color: tomato;
-    color: black;
-}
-
-footer{
+  p{
+    float: left;
+  }
+  h1,footer{
     text-align: center;
-    color: white;
-    border: solid 3px tomato;
-}
+  }
+
+  
