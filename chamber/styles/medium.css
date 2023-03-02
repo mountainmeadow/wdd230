@@ -17,14 +17,7 @@
             grid-template-columns: 70% 30%;
         }
 
-        .spotlight {
-            display: flex;
-            grid-row: 3  ;
-        }
-
-        .spotlight p {
-            width: 80%;
-        }
+       
 
 
         main .join {
