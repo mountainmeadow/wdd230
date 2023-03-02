@@ -1,13 +1,13 @@
 const url = directory.json
 
-fetch(requestFile)
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const directory = jsonObject['directory'];
-    const cards = document.querySelector('.cards');
+    const cards = document.querySelector('.cards');;
 
     directory.forEach(directory => {
         let card = document.createElement('section');
@@ -20,10 +20,10 @@ fetch(requestFile)
 
     
         h2.textContent = `${directory.name}`;
-        p.textContent = `Date of Birth: ${directory.addresses}`;
-        p2.textContent = `Place of Birth: ${directory.phonenumber}`;
-        p3.textContent = `Date of Death: ${directory.website}`;
-        p4.textContent = `Number of children: ${directory.membershiplevel}`;
+        p.textContent = `Addresses: ${directory.addresses}`;
+        p2.textContent = `Phone Number: ${directory.phonenumber}`;
+        p3.textContent = `Website: ${directory.website}`;
+        p4.textContent = `Membership Level: ${directory.membershiplevel}`;
        
         pimg.setAttribute('src', directory.imageurl);
         pimg.setAttribute('loading','lazy');

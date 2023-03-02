@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json';
+const requestURL = 'directory.json';
 
 fetch(requestURL)
   .then(function (response) {
