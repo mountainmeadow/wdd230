@@ -14,7 +14,7 @@
       "phonenumber": "435-777-9999",
       "website": "franksicecream.com",
       "membershiplevel": "Gold",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "Buck's Hardware ",
@@ -22,7 +22,7 @@
       "phonenumber": "435-222-3333",
       "website": "buckhardware.com",
       "membershiplevel": "Sliver",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "Muddy Bees Bakery",
@@ -30,7 +30,7 @@
       "phonenumber": "(435) 467-4898",
       "website": "www.muddybeesbakery.com",
       "membershiplevel": "Gold",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "Pick Me up",
@@ -38,7 +38,7 @@
       "phonenumber": " (208) 709-9857",
       "website": "www.pickmeupdrinks.com",
       "membershiplevel": "Bronze",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "fiiz drinks",
@@ -46,7 +46,7 @@
       "phonenumber": "(435) 216-8452",
       "website": "fiizdrinks.com",
       "membershiplevel": "Sliver",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "Back in Balance Chiropractic",
@@ -54,7 +54,7 @@
       "phonenumber": " (435) 635-0614",
       "website": "www.backinbalanceutah.com",
       "membershiplevel": "Gold",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "Zion Window Fashions",
@@ -62,7 +62,7 @@
       "phonenumber": " (435) 627-1652",
       "website": "zionwindowfashions.com",
       "membershiplevel": "Gold",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     },
     {
       "name": "GotBargains",
@@ -70,7 +70,7 @@
       "phonenumber": "435-666-6666",
       "website": "www.wegotbargainsforyou.com",
       "membershiplevel": "Bronze",
-      "imageurl": ""
+      "imageurl": "images/placeholder-image.png"
     }
 
   ]
