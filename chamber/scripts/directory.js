@@ -1,4 +1,4 @@
-const requestFile = 'JSON/directory.json';
+const url = directory.json
 
 fetch(requestFile)
   .then(function (response) {
