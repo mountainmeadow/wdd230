@@ -10,9 +10,11 @@ html {
     border: solid;
 }
 
-#white{background-color: white;}
-#lightyellow{background-color: #FFFFE0;}
-#black{background-color: #000000;
+#white{background-color: ghostwhite;}
+#gray{background-color: #37505c;}
+#black{background-color: #000000;}
+#pink{background-color: #F76F8E;;}
+
 color:white }
 
 h1,footer{
