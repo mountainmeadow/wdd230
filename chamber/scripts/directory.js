@@ -1,3 +1,4 @@
+
 const url = directory.json
 
 fetch(requestURL)
@@ -25,7 +26,7 @@ fetch(requestURL)
         p3.textContent = `Website: ${directory.website}`;
         p4.textContent = `Membership Level: ${directory.membershiplevel}`;
        
-        pimg.setAttribute('src', directory.imageurl);
+        pimg.setAttribute('src', images/placeholder-image.png);
         pimg.setAttribute('loading','lazy');
         card.append(h2);
         card.append(p);
