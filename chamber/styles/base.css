@@ -289,7 +289,7 @@ input[type=text], select {
     padding: 20px;
     
   }
-
+/*table*/
   
 table {
   border-collapse: collapse;
@@ -324,4 +324,18 @@ td, th {
     background-color: #37505c;
   }
 
- 
+ /*directory*/
+ .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+ section {
+  border-radius: 4px;
+  padding: 1rem;
+}
+img{
+  width: 100%; 
+  height: auto;
+}

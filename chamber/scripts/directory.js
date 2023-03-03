@@ -22,7 +22,7 @@ function displayCompanies(companies) {
 
     h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `test of ${company.name}`);
+    logo.setAttribute('alt', `image of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', 'auto');
     logo.setAttribute('height', '60');
