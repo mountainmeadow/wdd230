@@ -240,6 +240,8 @@ picture img {
     display: block;
     margin: 1rem auto;
     border: solid 2px;
+    width: 330px;
+
   }
   picture img[data-src] {
     filter: blur(10px);
@@ -251,12 +253,11 @@ picture img {
 
   figcaption{
     text-align: center;
-
     font-weight:bold;
     margin: 1em;
     
 }
-
+/*join*/
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
