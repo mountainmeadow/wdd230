@@ -22,7 +22,7 @@ function displayCompanies(companies) {
 
     h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `Lolo of ${company.name}`);
+    logo.setAttribute('alt', `test of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', 'auto');
     logo.setAttribute('height', '60');
@@ -30,7 +30,6 @@ function displayCompanies(companies) {
     h2.textContent = `${company.companyname}`;;
     address.textContent = `Address: ${company.address}`;
     phone.textContent = `Phone: ${company.phonenumber}`;
-    website.textContent = `Phone: ${company.website}`;
     membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
 
     card.appendChild(logo);
