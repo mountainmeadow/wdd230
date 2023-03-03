@@ -1,76 +1,76 @@
 {
-  "directory": [
+  "companies": [
     {
-      "name": "O'Malley The Alley Cat's Magic Shop ",
+      "companyname": "O'Malley The Alley Cat's Magic Shop ",
       "addresses": "456 S 100 e Hurricane,UT",
       "phonenumber": "435-555-8888",
       "website": "omalleythealleycatmagicshop.org",
       "membershiplevel": "Gold",
-      "imageurl": ""
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Frank's Ice Cream  Parlor",
+      "companyname": "Frank's Ice Cream  Parlor",
       "addresses": "55 W State Street Hurricane, Ut",
       "phonenumber": "435-777-9999",
       "website": "franksicecream.com",
       "membershiplevel": "Gold",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Buck's Hardware ",
+      "companyname": "Buck's Hardware ",
       "addresses": "111 N State Street Hurricane,Ut",
       "phonenumber": "435-222-3333",
       "website": "buckhardware.com",
       "membershiplevel": "Sliver",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Muddy Bees Bakery",
+      "companyname": "Muddy Bees Bakery",
       "addresses": "525 State St #7, Hurricane, UT",
       "phonenumber": "(435) 467-4898",
       "website": "www.muddybeesbakery.com",
       "membershiplevel": "Gold",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Pick Me up",
+      "companyname": "Pick Me up",
       "addresses": "525 W State St #7, Hurricane, UT ",
       "phonenumber": " (208) 709-9857",
       "website": "www.pickmeupdrinks.com",
       "membershiplevel": "Bronze",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "fiiz drinks",
+      "companyname": "fiiz drinks",
       "addresses": "540 State St, Hurricane, UT",
       "phonenumber": "(435) 216-8452",
       "website": "fiizdrinks.com",
       "membershiplevel": "Sliver",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Back in Balance Chiropractic",
+      "companyname": "Back in Balance Chiropractic",
       "addresses": "545 State St, Hurricane, UT ",
       "phonenumber": " (435) 635-0614",
       "website": "www.backinbalanceutah.com",
       "membershiplevel": "Gold",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "Zion Window Fashions",
+      "companyname": "Zion Window Fashions",
       "addresses": " 2051 E Red Hills Pkwy #8, St. George, UT",
       "phonenumber": " (435) 627-1652",
       "website": "zionwindowfashions.com",
       "membershiplevel": "Gold",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "name": "GotBargains",
+      "companyname": "GotBargains",
       "addresses": "109 S 700 W Suite 2 Hurricane Ut",
       "phonenumber": "435-666-6666",
       "website": "www.wegotbargainsforyou.com",
       "membershiplevel": "Bronze",
-      "imageurl": "images/placeholder-image.png"
+      "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     }
 
   ]

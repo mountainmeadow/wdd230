@@ -1,38 +1,46 @@
 
-const url = directory.json
+const url = '';
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  
-    const directorys = jsonObject['directorys'];
-    const cards = document.querySelector('.cards');
+async function getCompanyData() {
+  const response = await fetch(url);
+  const data = await response.json();
+  //console.table(data.companies);
+  displayCompanies(data.companies);
+}
 
-    directorys.forEach(directory => {
-        let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let p = document.createElement('p');
-        let p2 = document.createElement('p');
-        let p3 = document.createElement('p');
-        let p4 = document.createElement('p');
-        let pimg = document.createElement('img');
+function displayCompanies(companies) {
+  const cards = document.querySelector('div.cards');
 
-        h2.textContent = `${directory.name}}`;
-        p.textContent = `addresses: ${directory.addresses}`;
-        p2.textContent = `Phone NUmber: ${directory.phonenumber}`;
-        p3.textContent = `Website: ${directory.website}`;
-        p4.textContent = `Membership: ${directory.membershiplevel}`;
-        pimg.setAttribute('src', directory.imageurl);
-        pimg.setAttribute('alt', `Name: ${directory.name}`);
-        pimg.setAttribute('loading','lazy');
-        card.append(h2);
-        card.append(p);
-        card.append(p2);
-        card.append(p3);
-        card.append(p4);
-        card.append(pimg);
-        cards.append(card);
-    });
+  companies.forEach((company) => {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let logo = document.createElement('img');
+
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let membershiplevel = document.createElement('p');
+
+    h2.setAttribute('class', 'companynames');
+    logo.setAttribute('src', company.logo);
+    logo.setAttribute('alt', `Lolo of ${company.name}`);
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', 'auto');
+    logo.setAttribute('height', '60');
+
+    h2.textContent = `${company.companyname}`;;
+    address.textContent = `Address: ${company.address}`;
+    phone.textContent = `Phone: ${company.phonenumber}`;
+    membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
+
+    card.appendChild(logo);
+    card.appendChild(h2);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(membershiplevel);
+
+
+    cards.appendChild(card);
   });
+}
+
+getCompanyData();
