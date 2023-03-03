@@ -246,7 +246,6 @@ picture img {
     -webkit-filter: blur(10px);
   }
   .discoverh{
-    font-size: 50px;
     border: none;
   }
 
@@ -342,4 +341,8 @@ section {
   border-radius: 4px;
   padding: 1rem;
   max-width: 300px;
+  color:white;
+}
+.h2directory{
+  border:none
 }

@@ -20,7 +20,7 @@ function displayCompanies(companies) {
     let membershiplevel = document.createElement('p');
     h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `name of ${company.name}`);
+    logo.setAttribute('alt', `img ${company.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', 'auto');
     logo.setAttribute('height', '60');
