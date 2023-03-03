@@ -2,7 +2,7 @@
   "companies": [
     {
       "companyname": "O'Malley The Alley Cat's Magic Shop ",
-      "addresses": "456 S 100 e Hurricane,UT",
+      "address": "456 S 100 e Hurricane,UT",
       "phonenumber": "435-555-8888",
       "website": "omalleythealleycatmagicshop.org",
       "membershiplevel": "Gold",
@@ -10,7 +10,7 @@
     },
     {
       "companyname": "Frank's Ice Cream  Parlor",
-      "addresses": "55 W State Street Hurricane, Ut",
+      "address": "55 W State Street Hurricane, Ut",
       "phonenumber": "435-777-9999",
       "website": "franksicecream.com",
       "membershiplevel": "Gold",
@@ -18,7 +18,7 @@
     },
     {
       "companyname": "Buck's Hardware ",
-      "addresses": "111 N State Street Hurricane,Ut",
+      "address": "111 N State Street Hurricane,Ut",
       "phonenumber": "435-222-3333",
       "website": "buckhardware.com",
       "membershiplevel": "Sliver",
@@ -26,7 +26,7 @@
     },
     {
       "companyname": "Muddy Bees Bakery",
-      "addresses": "525 State St #7, Hurricane, UT",
+      "address": "525 State St #7, Hurricane, UT",
       "phonenumber": "(435) 467-4898",
       "website": "www.muddybeesbakery.com",
       "membershiplevel": "Gold",
@@ -34,7 +34,7 @@
     },
     {
       "companyname": "Pick Me up",
-      "addresses": "525 W State St #7, Hurricane, UT ",
+      "address": "525 W State St #7, Hurricane, UT ",
       "phonenumber": " (208) 709-9857",
       "website": "www.pickmeupdrinks.com",
       "membershiplevel": "Bronze",
@@ -42,7 +42,7 @@
     },
     {
       "companyname": "fiiz drinks",
-      "addresses": "540 State St, Hurricane, UT",
+      "address": "540 State St, Hurricane, UT",
       "phonenumber": "(435) 216-8452",
       "website": "fiizdrinks.com",
       "membershiplevel": "Sliver",
@@ -50,7 +50,7 @@
     },
     {
       "companyname": "Back in Balance Chiropractic",
-      "addresses": "545 State St, Hurricane, UT ",
+      "address": "545 State St, Hurricane, UT ",
       "phonenumber": " (435) 635-0614",
       "website": "www.backinbalanceutah.com",
       "membershiplevel": "Gold",
@@ -58,7 +58,7 @@
     },
     {
       "companyname": "Zion Window Fashions",
-      "addresses": " 2051 E Red Hills Pkwy #8, St. George, UT",
+      "address": " 2051 E Red Hills Pkwy #8, St. George, UT",
       "phonenumber": " (435) 627-1652",
       "website": "zionwindowfashions.com",
       "membershiplevel": "Gold",
@@ -66,7 +66,7 @@
     },
     {
       "companyname": "GotBargains",
-      "addresses": "109 S 700 W Suite 2 Hurricane Ut",
+      "address": "109 S 700 W Suite 2 Hurricane Ut",
       "phonenumber": "435-666-6666",
       "website": "www.wegotbargainsforyou.com",
       "membershiplevel": "Bronze",

@@ -30,6 +30,7 @@ function displayCompanies(companies) {
     h2.textContent = `${company.companyname}`;;
     address.textContent = `Address: ${company.address}`;
     phone.textContent = `Phone: ${company.phonenumber}`;
+    website.textContent = `Phone: ${company.website}`;
     membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
 
     card.appendChild(logo);
