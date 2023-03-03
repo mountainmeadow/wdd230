@@ -15,14 +15,12 @@ function displayCompanies(companies) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let logo = document.createElement('img');
-
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let membershiplevel = document.createElement('p');
-
     h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `image of ${company.name}`);
+    logo.setAttribute('alt', `name of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', 'auto');
     logo.setAttribute('height', '60');
