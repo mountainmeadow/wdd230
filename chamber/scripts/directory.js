@@ -6,11 +6,11 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const directory = jsonObject['directory'];
-    const cards = document.querySelector('.cards');;
+    console.table(jsonObject);  
+    const directorys = jsonObject['directorys'];
+    const cards = document.querySelector('.cards');
 
-    directory.forEach(directory => {
+    directorys.forEach(directory => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let p = document.createElement('p');
@@ -19,22 +19,19 @@ fetch(requestURL)
         let p4 = document.createElement('p');
         let pimg = document.createElement('img');
 
-    
-        h2.textContent = `${directory.name}`;
-        p.textContent = `Addresses: ${directory.addresses}`;
-        p2.textContent = `Phone Number: ${directory.phonenumber}`;
+        h2.textContent = `${directory.name}}`;
+        p.textContent = `addresses: ${directory.addresses}`;
+        p2.textContent = `Phone NUmber: ${directory.phonenumber}`;
         p3.textContent = `Website: ${directory.website}`;
-        p4.textContent = `Membership Level: ${directory.membershiplevel}`;
-       
-        pimg.setAttribute('src', images/placeholder-image.png);
+        p4.textContent = `Membership: ${directory.membershiplevel}`;
+        pimg.setAttribute('src', directory.imageurl);
+        pimg.setAttribute('alt', `Name: ${directory.name}`);
         pimg.setAttribute('loading','lazy');
         card.append(h2);
         card.append(p);
         card.append(p2);
         card.append(p3);
         card.append(p4);
-        card.append(p5);
-        card.append(p6);
         card.append(pimg);
         cards.append(card);
     });

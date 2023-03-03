@@ -1,11 +1,10 @@
-const requestURL = 'directory.json';
-
+const requestURL = 'https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);
     const prophets = jsonObject['prophets'];
     const cards = document.querySelector('.cards');
 
@@ -27,7 +26,6 @@ fetch(requestURL)
         p4.textContent = `Number of children: ${prophet.numofchildren}`;
         p5.textContent = `Years prophet: ${prophet.length}`;
         p6.textContent = `Prophet number: ${prophet.order}`;
-       
         pimg.setAttribute('src', prophet.imageurl);
         pimg.setAttribute('alt', `Date of Birth: ${prophet.birthdate}`);
         pimg.setAttribute('loading','lazy');
