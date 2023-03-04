@@ -338,7 +338,7 @@ img{
 
 section {
   background-color: none;
-  border: 1px solid;
+  border: 10px solid #F76F8E;
   border-radius: 4px;
   padding: 1rem;
   max-width: 300px;
