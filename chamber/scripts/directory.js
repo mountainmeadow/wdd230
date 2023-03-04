@@ -10,13 +10,13 @@ async function getCompanyData() {
 
 function displayCompanies(companies) {
   const cards = document.querySelector('div.cards');
-
   companies.forEach((company) => {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let logo = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
+    let website = document.createElement('p');
     let membershiplevel = document.createElement('p');
     h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
@@ -28,12 +28,15 @@ function displayCompanies(companies) {
     h2.textContent = `${company.companyname}`;;
     address.textContent = `Address: ${company.address}`;
     phone.textContent = `Phone: ${company.phonenumber}`;
+    website.textContent = `Membership level: ${company.website}`;
     membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
+  
 
     card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(address);
     card.appendChild(phone);
+    card.appendChild(website);
     card.appendChild(membershiplevel);
 
 
