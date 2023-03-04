@@ -48,7 +48,7 @@ function displayCompanies(companies) {
   /* const lists = document.querySelector('div.lists');
 
   companies.forEach((company) => {
-    let card = document.createElement('section');
+    let list = document.createElement('section');
     let h2 = document.createElement('h2');
     let address = document.createElement('p');
     let phone = document.createElement('p');
