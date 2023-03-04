@@ -6,6 +6,7 @@ async function getCompanyData() {
   const data = await response.json();
   //console.table(data.companies);
   displayCompanies(data.companies);
+  
 }
 
 function displayCompanies(companies) {
