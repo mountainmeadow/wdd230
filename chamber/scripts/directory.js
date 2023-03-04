@@ -4,7 +4,6 @@ const url = 'https://naomismith1.github.io/wdd230/chamber/data.json';
 async function getCompanyData() {
   const response = await fetch(url);
   const data = await response.json();
-  //console.table(data.companies);
   displayCompanies(data.companies);
   
 }
@@ -45,5 +44,38 @@ function displayCompanies(companies) {
     cards.appendChild(card);
   });
 }
+{
+  /* const lists = document.querySelector('div.lists');
 
+  companies.forEach((company) => {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let website = document.createElement('p');
+    let membershiplevel = document.createElement('p');
+    h2.setAttribute('class', 'companynames');
+    imageurl.setAttribute('alt', `img ${company.name}`);
+    imageurl.setAttribute('loading', 'lazy');
+    imageurl.setAttribute('width', 'auto');
+    imageurl.setAttribute('height', '60');
+
+    h2.textContent = `${company.companyname}`;;
+    address.textContent = `Address: ${company.address}`;
+    phone.textContent = `Phone: ${company.phonenumber}`;
+    website.textContent = `Website: ${company.website}`;
+    membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
+  
+
+    list.appendChild(h2);
+    list.appendChild(address);
+    list.appendChild(phone);
+    list.appendChild(website)
+    list.appendChild(membershiplevel);
+
+
+    lists.appendChild(list);
+  });*/
+}
 getCompanyData();
+
