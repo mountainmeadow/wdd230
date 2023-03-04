@@ -14,17 +14,17 @@ function displayCompanies(companies) {
   companies.forEach((company) => {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let logo = document.createElement('img');
+    let imageurl = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('p');
     let membershiplevel = document.createElement('p');
     h2.setAttribute('class', 'companynames');
-    logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `img ${company.name}`);
-    logo.setAttribute('loading', 'lazy');
-    logo.setAttribute('width', 'auto');
-    logo.setAttribute('height', '60');
+    imageurl.setAttribute('src', company.imageurl);
+    imageurl.setAttribute('alt', `img ${company.name}`);
+    imageurl.setAttribute('loading', 'lazy');
+    imageurl.setAttribute('width', 'auto');
+    imageurl.setAttribute('height', '60');
 
     h2.textContent = `${company.companyname}`;;
     address.textContent = `Address: ${company.address}`;
@@ -33,7 +33,7 @@ function displayCompanies(companies) {
     membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
   
 
-    card.appendChild(logo);
+    card.appendChild(imageurl);
     card.appendChild(h2);
     card.appendChild(address);
     card.appendChild(phone);
