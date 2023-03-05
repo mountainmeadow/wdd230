@@ -26,17 +26,17 @@
     },
     {
       "companyname": "Muddy Bees Bakery",
-      "address": "525 State St #7, Hurricane, UT",
+      "address": "525 State St , Hurricane, UT",
       "phonenumber": "(435) 467-4898",
       "website": "www.muddybeesbakery.com",
       "membershiplevel": "Gold",
       "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
-      "companyname": "Pick Me up",
+      "companyname": "Pick Me ",
       "address": "525 W State St #7, Hurricane, UT ",
       "phonenumber": " (208) 709-9857",
-      "website": "www.pickmeupdrinks.com",
+      "website": "www.pickmedrinks.com",
       "membershiplevel": "Bronze",
       "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
@@ -44,7 +44,7 @@
       "companyname": "fiiz drinks",
       "address": "540 State St, Hurricane, UT",
       "phonenumber": "(435) 216-8452",
-      "website": "fiizdrinks.com",
+      "website": "fiizdrink.com",
       "membershiplevel": "Sliver",
       "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
@@ -52,14 +52,14 @@
       "companyname": "Back in Balance Chiropractic",
       "address": "545 State St, Hurricane, UT ",
       "phonenumber": " (435) 635-0614",
-      "website": "www.backinbalanceutah.com",
+      "website": "www.backinbalanceutah.co",
       "membershiplevel": "Sliver",
       "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     },
     {
       "companyname": "Zion Window Fashions",
       "address": " 2051 E Red Hills Pkwy #8, St. George, UT",
-      "phonenumber": " (435) 627-1652",
+      "phonenumber": " (435) 672-1652",
       "website": "zionwindowfashions.com",
       "membershiplevel": "Bronze",
       "imageurl": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
