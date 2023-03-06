@@ -4,6 +4,9 @@ html{
     font-family: 'Sofia Sans',sans-serif;
     font-size: 15px;
 }
+main{
+  border: solid 3px #F76F8E;
+}
 body{
     background-color: #37505c;
 }

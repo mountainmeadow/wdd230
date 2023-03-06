@@ -1,6 +1,12 @@
-var temp= 34;
-var wSpeed= 15;
-var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+const s = 1;
+document.getElementById('wind_speed').innerText = s
 
-var windChill= Math.round(windChill);
-document.getElementById("windChill").innerHTML= windChill;
+const t = 32;
+document.getElementById('temp').innerText = t
+if (t <= 50 && s > 3.0) {
+    const windchill = 35.74 + (0.6215 * t) - (35.75 * (s ** 0.16)) + (0.4275 * t * (s ** .016));
+    document.getElementById("wind_chill").innerText = windchill.toFixed(2)
+}
+else {
+    document.getElementById("wind_chill").innerText = "N/A"
+}
