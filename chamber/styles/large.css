@@ -23,9 +23,7 @@
         column-gap: .5rem;
     }
 
-    .spotlight p:nth-child(3) {
-        display: none;
-    }
+   
 
     main section:nth-child(1) {
         grid-column: 2;
@@ -49,7 +47,7 @@
     }
 
     main section:nth-child(5) {
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 2;
     }
 

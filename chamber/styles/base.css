@@ -98,7 +98,7 @@ main section {
     color: ghostwhite;
     height: 100%;
     margin: 10px;
-    
+  border: none;
     
     
     
@@ -130,9 +130,7 @@ main .join {
     
 
 }
-main section{
-  border: solid 2px #F76F8E;
-}
+
 .indexh6{
     margin: 1em;
 }
@@ -345,9 +343,15 @@ section {
   color:white;
 }
 .h2directory{
-  border:none
+  border:none;
+  text-align: center;
+  font-size: 20px;
 }
 
-
+.directoryp{
+  text-align: left;
+  font-weight: bold;
+  color:white
+}
 
 
