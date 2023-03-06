@@ -134,6 +134,7 @@ main .join {
 
 }
 
+
 .indexh6{
     margin: 1em;
 }
@@ -188,7 +189,7 @@ color: white;}
   
   /* Make the image responsive */
   .container img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
   
