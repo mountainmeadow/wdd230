@@ -5,6 +5,7 @@ async function getCompanyData() {
   const response = await fetch(url);
   const data = await response.json();
   displayCompanies(data.companies);
+  displayBusinessList(data.companies)
   
 }
 
@@ -42,10 +43,10 @@ function displayCompanies(companies) {
 
 
     cards.appendChild(card);
-  });
+  })
 }
 {
-  /* const lists = document.querySelector('div.lists');
+   /*const lists = document.querySelector('div.lists');
 
   companies.forEach((company) => {
     let list = document.createElement('section');
@@ -75,7 +76,7 @@ function displayCompanies(companies) {
 
 
     lists.appendChild(list);
-  });*/
+  })*/
 }
 getCompanyData();
 
