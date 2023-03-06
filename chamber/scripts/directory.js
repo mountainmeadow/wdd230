@@ -46,6 +46,7 @@ function displayCompanies(companies) {
   })
 }
 {
+
    /*
 
    function displayCompanies(companies) {
