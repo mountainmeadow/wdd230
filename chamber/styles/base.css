@@ -211,9 +211,9 @@ color: white;}
 
 
 
-  .center {
-    display: none;
-  }
+ .iceream {
+  width: 100px;
+ }
 
  h2,h3,h4 ,h5,h6{
     text-align: center;
@@ -223,16 +223,14 @@ color: white;}
  }
 
  
- .weather,.ice,.news,.join{
-    text-align: left;
-    margin: 1em;
- }
+
  
 /*discover page*/
 
 .discvoer{
     grid-template-columns:  none;
     grid-template-rows: none;
+    color: white;
 }
 picture img {
     display: block;
