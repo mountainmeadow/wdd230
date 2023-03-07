@@ -45,42 +45,6 @@ function displayCompanies(companies) {
     cards.appendChild(card);
   })
 }
-{
 
-   /*
-
-   function displayCompanies(companies) {
-  const cards = document.querySelector('div.list');
-
-  companies.forEach((company) => {
-    let list = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let address = document.createElement('p');
-    let phone = document.createElement('p');
-    let website = document.createElement('p');
-    let membershiplevel = document.createElement('p');
-    h2.setAttribute('class', 'companynames');
-    imageurl.setAttribute('alt', `img ${company.name}`);
-    imageurl.setAttribute('loading', 'lazy');
-    imageurl.setAttribute('width', 'auto');
-    imageurl.setAttribute('height', '60');
-
-    h2.textContent = `${company.companyname}`;;
-    address.textContent = `Address: ${company.address}`;
-    phone.textContent = `Phone: ${company.phonenumber}`;
-    website.textContent = `Website: ${company.website}`;
-    membershiplevel.textContent = `Membership level: ${company.membershiplevel}`;
-  
-
-    list.appendChild(h2);
-    list.appendChild(address);
-    list.appendChild(phone);
-    list.appendChild(website)
-    list.appendChild(membershiplevel);
-
-
-    lists.appendChild(list);
-  })*/
-}
 getCompanyData();
 
