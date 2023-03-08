@@ -1,7 +1,7 @@
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: #F76F8E;
+	background-color: none;
 }
 .navigation {
 	list-style: none;
@@ -32,7 +32,7 @@ nav {
 
 .navigation a:hover, navigation a:active {
 	color: white;
-	background-color: #37505c;
+	background-color: none;
 }
 
 
