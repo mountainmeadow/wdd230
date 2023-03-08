@@ -43,3 +43,7 @@ nav {
 .responsive #menu::before {
 	content: "X";
 }
+
+h1{
+	text-align: center;
+}

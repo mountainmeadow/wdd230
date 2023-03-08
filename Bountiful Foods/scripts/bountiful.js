@@ -4,3 +4,6 @@ const hambutton = document.querySelector('#menu');
 
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// copyright//
+document.getElementById("year").innerHTML = new Date().getFullYear();
