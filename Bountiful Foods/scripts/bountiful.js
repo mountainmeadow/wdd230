@@ -7,3 +7,9 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // copyright//
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+// last modified //
+let text = document.lastModified;
+document.getElementById("time").innerHTML = text;
+
+document.getElementById("year").innerHTML = new Date().getFullYear();

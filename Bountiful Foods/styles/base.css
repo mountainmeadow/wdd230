@@ -1,7 +1,17 @@
+html{
+	padding: 20px;
+}
+body{
+ border: 8px solid #75c9c8;
+ padding: 13px;
+}
+
+
+
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: none;
+	background-color:  #ded9e2;
 }
 .navigation {
 	list-style: none;
@@ -31,8 +41,8 @@ nav {
 }
 
 .navigation a:hover, navigation a:active {
-	color: white;
-	background-color: none;
+	color: black;
+	background-color: #c0b9dd;
 }
 
 
@@ -46,4 +56,38 @@ nav {
 
 h1{
 	text-align: center;
+	font-size: 50px;
+	 ;
+
+}
+
+h2,h3,h4{
+	font-size: 20px;
+	text-align: center;
+	padding: 3px;
+	
+}
+
+
+footer{
+	text-align:center;
+	padding: 5px;
+	border: solid 5px #c0b9dd
+}
+section{
+	
+	padding: 3px;
+}
+
+.logo{
+	width: 100px;
+	padding: 5px;
+	float: left;
+}
+.sm{
+	width: 20px;
+	float: right;
+	padding: 2px;
+	
+
 }
