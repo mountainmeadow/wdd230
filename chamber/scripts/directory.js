@@ -4,6 +4,7 @@ const url = 'https://naomismith1.github.io/wdd230/chamber/data.json';
 async function getCompanyData() {
   const response = await fetch(url);
   const data = await response.json();
+  
   displayCompanies(data.companies);
   displayCompaniesList(data.companies)
   
