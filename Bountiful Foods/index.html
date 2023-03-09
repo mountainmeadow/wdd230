@@ -32,16 +32,24 @@
  <main>
 <hr>
 <section>
-  <h2><u>Summary:</u></h2>
-  <p></p>
+  <h2><u>Summary: Vista,CA</u></h2>
+
+</section>
+<hr>
+<section class="weather">
+  <h2><u>Weather:</u></h2>
+  <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+  <p>Current Condition:</p>
+  <figure>
+  <img src="" alt="" id="weather-icon"/>
+  </figure>
+  <p>Windchill: <span id="wind-chill"></span></p>
+  <p>Humility: </p>
 </section>
 <hr>
 <section>
-  <h3><u>Weather:</u></h3>
-</section>
-<hr>
-<section>
-  <h4><u>Number of Drinks:</u></h4>
+  <h4><u>Number of Drinks(visits):</u></h4>
+  <p class="visits"><span id="visits"></span></p>
 </section>
 <hr>
 <footer>
@@ -51,8 +59,9 @@
   <p>Last modification: <span id="date"></span> <span id="time"></span> </p> 
 </footer>
 <hr>
-    </main>
-
+</main>
   </body>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/vists.js"></script>
   <script src="scripts/bountiful.js"></script>
 </html>

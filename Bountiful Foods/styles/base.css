@@ -91,3 +91,12 @@ section{
 	
 
 }
+u{
+size: 12px;
+}
+
+.visits{
+	text-align: center;
+	font-size: 50px;
+	color:  firebrick;
+}
